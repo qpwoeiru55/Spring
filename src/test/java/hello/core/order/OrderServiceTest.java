@@ -21,7 +21,6 @@ public class OrderServiceTest {
         orderService = appConfig.orderService();
     }
 
-
     @Test
     void createOrder() {
         Member member = new Member(1L,"membera", Grade.vip);
